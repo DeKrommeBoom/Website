@@ -1,0 +1,121 @@
+Algemeen----------------------------------------------------------------------------------------------------------
+
+Footer: smaller + footer van bouw & renovatie
+
+
+
+Landingspagina Kromme Boom------------------------------------------------------------------------------------------------------
+
+Hoofdmenu: 3 keuzes (cards) niet draaien aanklikbaar zonder knop onderaan
+
+
+
+VZW--------------------------------------------------------------------------------------------------------------
+
+Menu: geen animatie DONE!
+
+Menu: (nieuwe volgorde) eerst werking dan over ons DONE!
+
+
+
+Over ons: Samenwerking: nieuw; time outs school, boerderijklasjes. mag weg: Drugpreventie DONE!
+
+Over ons: Geschiedenis: stichters vermelden & lay-out van archief gebruiken (DONE) + cards gelijk maken; breedte (fout in framework? dit lukt niet)
+
+
+
+Activiteiten: wordt Acties (moet zeer dynamisch zijn, extern aan te kunnen passen) (Done)
+
+
+
+Werking: nieuwe tab - Intake procedure DONE!
+
+Werking: (nieuwe volgorde) Algemeen - werking - voor wie DONE!
+
+	
+
+Archief: Hier komen krantenartikels en flarden uit het gastenboek
+
+
+
+Steun: Indicatie, storten klik hier op onderstaande links of dergelijke DONE!
+
+Steun: eetfestijn wordt vrijwilligers, wie wat waar waarom. DONE
+
+Steun: Tomboloprijzen bij materieel DONE
+
+
+
+Contacteer ons: geen animatie DONE
+
+
+
+Footer: Subscribe wordt schrijf je in voor onze nieuwsbrief en acties / ontvang al onze acties en nieuwtjes DONE
+
+
+
+MAATWERK----------------------------------------------------------------------------------------------------------
+
+Hoofdpagina: titel animate vervangen met fadeIn of dergelijke
+
+Hoofdpagina: titel maatwerkbedrijf zonder '!'.
+
+Hoofdpagina: Logo plaatsen
+
+Hoofdpagina: Kiezen voor ons: text text text mag weg
+
+Hoofdpagina: Kiezen voor ons: bij plaatsen, op maat en qualitatief + logo'tjes
+
+Hoofdpagina: kiezen voor ons foto geen parallax
+
+Hoofdpagina: 'We werken samen met' wordt 'Onze partners'.
+
+
+
+Menu: over ons dan activiteiten
+
+
+
+Activiteiten: ateliers vervangen door bewerking of unit's/werkplaats
+
+Activiteiten: Boerderij en bloemenwinkel onderaan plaatsen bij elkaar
+
+Activiteiten: carousel zonder tekst, heldere foto's
+
+Activiteiten: 3 foto's onderaan (cards); dia realisatie van begin tot eind (product)
+
+
+
+Realisaties: weg?
+
+
+
+Over ons: Tieneke*
+
+
+
+GROENHOF----------------------------------------------------------------------------------------------------------
+
+(alle animatie van pagina's verwijderen)
+
+Hoofdpagina: Veel te druk
+
+Hoofdpagina: titel geen animatie
+
+Hoofdpagina: Mooie foto bovenaan
+
+Hoofdpagina: 3 headings mag weg
+
+Hoofdpagina: planten - cafetaria - kunst: hyperlinks van maken - neutrale achtergrond geen foto
+-> Juiste foto geen tekst
+
+
+
+Winkel: tabs verticaal plaatsen en volgend op scherm gebruiker (tieneke)
+
+
+Menu: Kunst - Cafe - Verhuur - Contact 
+
+
+ 
+

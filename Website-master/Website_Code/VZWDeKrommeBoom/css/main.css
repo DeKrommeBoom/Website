@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/* Navigation bar animation */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+  border-bottom: 3px
+}
+
+.activemenu {
+	font-weight: 1000;
+}
+/* Keyframes */
+@-webkit-keyframes fill {
+    0% {
+      width: 0%;
+      height: 3px;
+    }
+    50% {
+      width: 100%;
+      height: 3px;
+    }
+    100% {
+      width: 100%;
+      height: 3PX;
+      background: green;
+    }
+  }
+
+  .navbar {
+    box-shadow: 0 8px 6px -6px #999;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  #navbar {
+    transition: top 0.4s;
+  }
+
+
+.font {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+  .hero-image {
+    height: 38em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .paralax {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+
+  #content .nav-link {
+    
+    transition: all 0.2 ease;
+  }
+  
+  body,html {
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+  max-width: 960px;
+  margin: auto;
+}
+
+@media (max-width: 424px) {
+  #tabs .nav-tabs {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 366px) {
+  #tabs .nav-tabs {
+    padding-top: 80px;
+  }
+}
+
+/* Tabs*/
+section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+#tabs{
+background: white;
+  color: #007b5e;
+}
+#tabs h6.section-title{
+  color: #007b5e;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color:#007b5e;
+  background-color: transparent;
+  border-color: transparent transparent #007b5e;
+  border-bottom: 2px solid !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  color: #007b5e;
+  font-size: 20px;
+}
+
+.nav-bk{
+  background: #56ab2f; /* fallback for old browsers */
+  background: -webkit-linear-gradient( #56ab2f, #a8e063); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient( #56ab2f, #a8e063); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}

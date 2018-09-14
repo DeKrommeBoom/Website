@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/calender.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <script src="js/navbarhide.js"></script>
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav id="navbar" class="navbar navbar-expand-md bg-light navbar-light fixed-top fill stroke">
+      <a href="../landingspagina.html" class="btn btn-sm fas fa-home fa-1x text-success"><br> Home</a>
+    <div class="mx-auto d-md-flex d-block flex-md-nowrap">
+      <!-- Brand -->
+      <a class="navbar-brand text-success" href="index.html">
+        <img src="foto/kblogo.jpg" alt="Logo" style="width:40px;"> VZW De Kromme Boom </a>
+      <!-- Navbar toggle -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarsExample11">
+        <!-- Nav bar Links -->
+        <ul class="navbar-nav">
+          <!-- Dropdown -->
+          <li class="nav-item">
+            <a class="nav-link text-success" href="werking.html">Werking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="over ons.html" id="navbardrop">Over ons</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link text-success" href="activiteiten.html">Acties</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success activemenu" href="archief.html">Archief</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="steun.html">Steun</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="contact.html">Contacteer ons</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="tabs">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 ">
+          <nav>
+            <div class="nav nav-tabs nav-fill w-75 mx-auto" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link active" id="nav-artikels-tab" data-toggle="tab" href="#nav-artikels" role="tab" aria-controls="nav-artikels" aria-selected="true">Kranten artikels</a>
+              <a class="nav-item nav-link" id="nav-gastenboek-tab" data-toggle="tab" href="#nav-gastenboek" role="tab" aria-controls="nav-gastenboek" aria-selected="false">Gastenboek</a>
+            </div>
+          </nav>
+          <div class="tab-content py-3 px-3 px-sm-0 w-75 mx-auto" id="nav-tabContent">
+            <div class="tab-pane active" id="nav-artikels" role="tabpanel" aria-labelledby="nav-artikels-tab">
+                <div class="album py-5">
+                    <div class="container">
+                      <div class="card-deck">
+                        
+                        <a class="btn" href="google.be">
+                        <div class="card">
+                          <img class="card-img-top zoom-in" src="foto/img1.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                              a little bit longer.</p>
+                          </div>
+                        </div>
+                      </a> 
+                        
+                        <div class="card">
+                          <img class="card-img-top zoom-in" src="foto/img2.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top zoom-in" src="foto/img3.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                              longer content than the first to show that equal height action.</p>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+              </div>
+            </div>
+
+            <style>
+              div.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    cursor: pointer;
+}
+            </style>
+
+            <div class="tab-pane" id="nav-gastenboek" role="tabpanel" aria-labelledby="nav-gastenboek-tab">
+<style>
+                .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active1, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active1:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}  
+</style>
+                <div class="py-5">
+                <h2 class="text-center">Gastenboek ideetjes</h2>
+                <br>
+                <br>
+                <button class="accordion active1">Section 1</button>
+                <div class="panel" style="max-height: 100%;">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <img class="img-fluid d-block w-100 img-thumbnail" src="https://pingendo.github.io/templates/sections/assets/gallery_9.jpg"></img>
+                </div>
+                
+                <button class="accordion">Section 2</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                
+                <button class="accordion">Section 3</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">Section 2</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                
+                <button class="accordion">Section 3</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">Section 2</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                
+                <button class="accordion">Section 3</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">Section 2</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                
+                <button class="accordion">Section 3</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                
+                <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active1");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight){
+                      panel.style.maxHeight = null;
+                    } else {
+                      panel.style.maxHeight = panel.scrollHeight + "px";
+                    } 
+                  });
+                }
+                </script>
+                </div>
+            </div>
+  </section>
+  
+
+      <div class="py-5 bg-success text-white">
+        <div class="container w-100">
+          <div class="row">
+            <div class="col-md-9">
+              <p class="lead">Sign up to our newsletter for the latest news</p>
+              <form class="form-inline">
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Your e-mail here"> </div>
+                <button type="submit" class="btn btn-secondary ml-3">Subscribe</button>
+              </form>
+            </div>
+            <div class="col-4 col-md-1 align-self-center">
+              <a href="https://www.facebook.com" target="_blank">
+                <i class="fa fa-fw fa-facebook fa-3x text-white"></i>
+              </a>
+            </div>
+            <div class="col-4 col-md-1 align-self-center">
+              <a href="https://twitter.com" target="_blank">
+                <i class="fa fa-fw fa-twitter fa-3x text-white"></i>
+              </a>
+            </div>
+            <div class="col-4 col-md-1 align-self-center">
+              <a href="https://www.instagram.com" target="_blank">
+                <i class="fa fa-fw fa-youtube text-white fa-3x"></i>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 mt-3 text-center">
+              <a class="text-dark" href="privacypolicy.pdf">Privacy Policy</a>
+              <br>
+              <br>
+              <p>© Copyright 2018 DeKrommeBoom - All rights reserved.</p>
+              <p>Made by: Buyck Kenneth @ DeKrommeBoom</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+
+</html>

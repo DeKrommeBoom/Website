@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='css/bootstrap1.css' rel='stylesheet' />
+    <link href='css/rotating-card.css' rel='stylesheet' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js"></script>
+    <script src="Egg.js"></script>
+</head>
+
+<style>
+    /* IE11 fix (tijdelijk) */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles */
+  .card {
+    display: inline-block;
+    opacity: 0;
+  }
+
+  .body {
+    background-color: tomato;
+  }
+
+  .backgroundSupport{
+    background-size:cover\9;
+
+    color: white;
+    background-position: top center;
+    background-image: url('support.png');
+    opacity: 1;
+    background-repeat: no-repeat;
+  }
+
+
+
+  .subtitle span
+    {
+       display: none;
+    }
+
+    .subtitle:after {
+        color: black;
+        content: 'Internet explorer is niet compatibel met onze website! Gebruik: Edge, Firefox, Chrome of Opera';
+    }
+}
+
+</style>
+
+<body>  
+
+
+<div class="container">
+    <div class="row">
+        <h1 class="title">
+            De Kromme Boom
+            <br>
+            <small class="subtitle"><span> of een quote...</span></small>
+        </h1>
+        
+        <div class="col-sm-10 col-sm-offset-1 backgroundSupport">
+                <div id="x"></div>
+         <div class="col-md-4 col-sm-6">
+             <div class="card-container animated slideInLeft">
+                <div class="card">
+                    <div class="front">
+                        <div class="cover">
+                            <img src="images/rotating_card_thumb2.png"/>
+                        </div>
+                        <div class="user">
+                            <img class="img-circle" src="images/01.jpg"/>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h3 class="name">Woon <br>&<br> Leefgemeenschap</h3>
+                                <p class="text-center"><br>"Hulp en opvang van jongeren en jongvolwassenen"</p>
+                            </div>
+                        </div>
+                    </div> <!-- end front panel -->
+                    <div class="back">
+                        <div class="header">
+                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h4 class="text-center">Titel</h4>
+                                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam iaculis justo vitae mollis. Quisque sed velit consequat, fermentum odio interdum, semper lacus. Proin auctor neque et ex dapibus</p>
+                            </div>
+                            <a href="VZWDeKrommeBoom/index.html" class="btn btn-success btn-lg btn-block">VZW Kromme Boom</a>
+                        </div>
+                    </div> <!-- end back panel -->
+                </div> <!-- end card -->
+            </div> <!-- end card-container -->
+        </div> <!-- end col sm 3 -->
+<!--         <div class="col-sm-1"></div> -->
+        <div class="col-md-4 col-sm-6">
+             <div class="card-container animated zoomIn">
+                <div class="card">
+                    <div class="front">
+                        <div class="cover">
+                            <img src="images/rotating_card_thumb.png"/>
+                        </div>
+                        <div class="user">
+                            <img class="img-circle" src="images/02.png"/>
+                        </div>
+                        
+                        <div class="content">
+                            <div class="main">
+                                <h3 class="name">Maatwerkbedrijf</h3>
+                                <p class="text-center"><br>"Sociale Werkplaats, lorem ipsum dolar sit amet"</p>
+                            </div>
+                        </div>
+                    </div> <!-- end front panel -->
+                    <div class="back">
+                        <div class="header">
+                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h4 class="text-center">Titel</h4>
+                                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam iaculis justo vitae mollis. Quisque sed velit consequat, fermentum odio interdum, semper lacus. Proin auctor neque et ex dapibus</p>
+                            </div>
+                            <a href="MaatwerkBedrijf/testDemo.1.html" class="btn btn-success btn-lg btn-block">Maatwerkbedrijf</a>
+                        </div>
+                    </div> <!-- end back panel -->
+                </div> <!-- end card -->
+            </div> <!-- end card-container -->
+        </div> <!-- end col sm 3 -->
+<!--         <div class="col-sm-1"></div> -->
+        <div class="col-md-4 col-sm-6">
+            <div class="card-container animated slideInRight">
+                <div class="card">
+                    <div class="front">
+                        <div class="cover">
+                            <img src="images/rotating_card_thumb3.png"/>
+                        </div>
+                        <div class="user">
+                            <img class="img-circle img-fluid" src="images/03.jpg"/>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h3 class="name">Bloemenwinkel <br>&<br> Cafetaria</h3>
+                                <p></p>
+                                <p class="text-center">"Bloemen, planten en koffie!<br>Voor ieder wat wils!"</p>
+                            </div>
+                        </div>
+                    </div> <!-- end front panel -->
+                    <div class="back">
+                        <div class="header">
+                            <h5 class="motto">"To be or not to be, this is my awesome motto!"</h5>
+                        </div>
+                        <div class="content">
+                            <div class="main">
+                                <h4 class="text-center">Titel</h4>
+                                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam iaculis justo vitae mollis. Quisque sed velit consequat, fermentum odio interdum, semper lacus. Proin auctor neque et ex dapibus</p>
+                            </div>
+                            <a href="Groenhof/index.html" class="btn btn-success btn-lg btn-block">Groenhof St. Joseph</a>
+                        </div>
+                    </div> <!-- end back panel -->
+                </div> <!-- end card -->
+            </div> <!-- end card-container -->
+        </div> <!-- end col-sm-3 -->
+        </div> <!-- end col-sm-10 -->
+    </div> <!-- end row -->
+    <div class="py-5 bg-success text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3 text-center">
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fa fa-fw fa-facebook fa-3x text-muted"></i>
+                  </a>
+                  <a href="https://twitter.com" target="_blank">
+                    <i class="fa fa-fw fa-twitter fa-3x text-muted"></i>
+                  </a>
+                  <a href="https://www.instagram.com" target="_blank">
+                    <i class="fa fa-fw fa-youtube fa-3x text-muted"></i>
+                  </a><br><br>
+          <a class="text-muted" href="pdf/privacypolicy.pdf">Privacy Policy</a>
+          <p></p>
+          <p class="text-muted">© Copyright 2018 DeKrommeBoom - All rights reserved.</p>
+          <p class="text-muted">Made by: Buyck Kenneth @ DeKrommeBoom</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="img-zoom.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <script src="js/slideanim.js"></script>
+  <link rel="stylesheet" href="css/carousel.css">
+  <script src="js/enlarge.js"></script>
+  <script src="js/navbarhide.js"></script>
+</head>
+
+
+<body class="bg-light">
+
+   <!-- Navigation bar -->
+   <nav id="navbar" class="navbar navbar-expand-md bg-light navbar-light fixed-top fill stroke">
+      <a href="../landingspagina.html" class="btn btn-sm fas fa-home fa-1x text-success"><br> Home</a>
+    <div class="mx-auto d-md-flex d-block flex-md-nowrap">
+      <!-- Brand -->
+      <a class=" navbar-brand text-success" href="testDemo.1.html">
+        <img src="foto/kblogo.png" alt="Logo" style="width:40px;"> Maatwerkbedrijf</a>
+      <!-- Navbar toggle -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarsExample11">
+        <!-- Nav bar Links -->
+        <ul class="navbar-nav">
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggler text-success" href="#" id="navbardrop" data-toggle="dropdown">Activiteiten</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item text-success" href="hout.html">Houtatelier</a>
+              <a class="dropdown-item text-success" href="metaal.html">Metaalatelier</a>
+              <a class="dropdown-item text-success" href="renovatie.html">Bouw &amp; Renovatie</a>
+              <a class="dropdown-item text-success" href="bloemenwinkel.html">Bloemenwinkel</a>
+              <a class="dropdown-item text-success" href="boomverzorging.html">Boomverzorging &amp; Groendienst</a>
+              <a class="dropdown-item text-success" href="boerderij.html">Boerderij</a>
+              <a class="dropdown-item text-success" href="it.html">IT, Webdesign &amp; Computer reparatie</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="over ons.html">Over ons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success activemenu" href="realisaties.html">Realisaties</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="contacteer ons.html">Contacteer ons</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main role="main">
+    <div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content text-center transparant">
+          <div class="modal-header transparant">
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="" class="enlargeImageModalSource" style="width: 100%;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myCarousel" class="carousel carousel-fade bg-inverse w-500 ml-auto mr-auto" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="foto/placeholder-images.png" alt="First slide">
+            <div class="carousel-caption">
+              <h3>First slide</h3>
+              <p>This is the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="foto/placeholder-images.png" alt="Second slide">
+            <div class="carousel-caption">
+              <h3>Second slide</h3>
+              <p>This is the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="foto/placeholder-images.png" alt="Third slide">
+            <div class="carousel-caption">
+              <h3>Third slide</h3>
+              <p>This is the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    <div class="album py-5">
+      <div class="container">
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top zoom-in" src="foto/img1.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top zoom-in" src="foto/img2.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top zoom-in" src="foto/img3.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck slideanim">
+          <div class="card">
+            <img class="card-img-top zoom-in" src="foto/placeholder 600x400.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top zoom-in" src="foto/placeholder 600x400.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+          <div class="card box-shadow zoom-in">
+            <img class="card-img-top" src="foto/placeholder 600x400.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck slideanim">
+          <div class="card">
+            <img class="card-img-top zoom-in" src="foto/placeholder 600x400.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top zoom-in" src="foto/placeholder 600x400.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+          <div class="card box-shadow">
+            <img class="card-img-top zoom-in" src="foto/placeholder 600x400.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                longer content than the first to show that equal height action.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1">Previous</a>
+      </li>
+      <li class="page-item active">
+        <a class="page-link" href="Realisaties.html">1</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="realisaties2.html">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="realisaties3.html">3</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="realisaties2.html">Next</a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+  <div class="py-5 bg-success text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <p class="lead">Sign up to our newsletter for the latest news</p>
+          <form class="form-inline">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your e-mail here"> </div>
+            <button type="submit" class="btn btn-primary ml-3">Subscribe</button>
+          </form>
+        </div>
+        <div class="col-4 col-md-1 align-self-center">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fa fa-fw fa-facebook fa-3x text-white"></i>
+          </a>
+        </div>
+        <div class="col-4 col-md-1 align-self-center">
+          <a href="https://twitter.com" target="_blank">
+            <i class="fa fa-fw fa-twitter fa-3x text-white"></i>
+          </a>
+        </div>
+        <div class="col-4 col-md-1 align-self-center">
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fa fa-fw fa-youtube text-white fa-3x"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3 text-center">
+          <a href="privacypolicy.pdf">Privacy Policy</a>
+          <br>
+          <br>
+          <p>© Copyright 2018 DeKrommeBoom - All rights reserved.</p>
+          <p>Made by: Buyck Kenneth @ DeKrommeBoom</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

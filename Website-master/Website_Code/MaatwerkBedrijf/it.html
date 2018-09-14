@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/carousel.css">
+  <script src="js/navbarhide.js"></script>
+</head>
+
+<body>
+   <!-- Navigation bar -->
+   <nav id="navbar" class="navbar navbar-expand-md bg-light navbar-light fixed-top fill stroke">
+      <a href="../landingspagina.html" class="btn btn-sm fas fa-home fa-1x text-success"><br> Home</a>
+    <div class="mx-auto d-md-flex d-block flex-md-nowrap">
+      <!-- Brand -->
+      <a class=" navbar-brand text-success" href="testDemo.1.html">
+        <img src="foto/kblogo.png" alt="Logo" style="width:40px;"> Maatwerkbedrijf</a>
+      <!-- Navbar toggle -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarsExample11">
+        <!-- Nav bar Links -->
+        <ul class="navbar-nav">
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggler text-success activemenu" href="#" id="navbardrop" data-toggle="dropdown">Activiteiten</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item text-success" href="hout.html">Houtatelier</a>
+              <a class="dropdown-item text-success" href="metaal.html">Metaalatelier</a>
+              <a class="dropdown-item text-success" href="renovatie.html">Bouw &amp; Renovatie</a>
+              <a class="dropdown-item text-success" href="bloemenwinkel.html">Bloemenwinkel</a>
+              <a class="dropdown-item text-success" href="boomverzorging.html">Boomverzorging &amp; Groendienst</a>
+              <a class="dropdown-item text-success" href="boerderij.html">Boerderij</a>
+              <a class="dropdown-item text-success activemenu" href="it.html">IT, Webdesign &amp; Computer reparatie</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="over ons.html">Over ons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="realisaties.html">Realisaties</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="contacteer ons.html">Contacteer ons</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="myCarousel" class="carousel bg-inverse w-500 ml-auto mr-auto" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="foto/placeholder-images.png" alt="First slide">
+        <div class="carousel-caption">
+          <h3>First slide</h3>
+          <p>This is the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="foto/placeholder-images.png" alt="Second slide">
+        <div class="carousel-caption">
+          <h3>Second slide</h3>
+          <p>This is the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="foto/placeholder-images.png" alt="Third slide">
+        <div class="carousel-caption">
+          <h3>Third slide</h3>
+          <p>This is the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="container h-10" id="content">
+    <div class="row h-100 mt-0">
+      <main class="col py-5">
+        <div class="py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 align-self-center">
+                <h3>Align center text with image</h3>
+                <p class="my-3">Flex setting of this column. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col-md-5">
+                <img class="img-fluid d-block" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg"> </div>
+            </div>
+          </div>
+        </div>
+        <div class="py-5" >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <img class="img-fluid d-block" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg"> </div>
+              <div class="col-md-7 align-self-center">
+                <h3>Switching columns under
+                  <i>md</i> breakpoint</h3>
+                <p class="my-3">Both columns have a
+                  <i>order-n&nbsp;</i>class. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="foto/hout.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Titel</h5>
+                  <p class="card-text">orem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mi ligula, cursus eget felis ut, sagittis
+                    lacinia leo.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="foto/hout.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Titel</h5>
+                  <p class="card-text">orem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mi ligula, cursus eget felis ut, sagittis
+                    lacinia leo.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="foto/hout.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Titel</h5>
+                  <p class="card-text">orem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mi ligula, cursus eget felis ut, sagittis
+                    lacinia leo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="py-5 bg-success text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <p class="lead">Schrijf je in op onze nieuwsletter!</p>
+          <form class="form-inline">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="e-mail"> </div>
+            <button type="submit" class="btn btn-success ml-3">Subscribe</button>
+          </form>
+        </div>
+        <div class="col-4 col-md-1 align-self-center">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fa fa-fw fa-facebook fa-3x text-white"></i>
+          </a>
+        </div>
+        <div class="col-4 col-md-1 align-self-center">
+          <a href="https://twitter.com" target="_blank">
+            <i class="fa fa-fw fa-twitter fa-3x text-white"></i>
+          </a>
+        </div>
+        <div class="col-4 col-md-1 align-self-center">
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fa fa-fw fa-youtube text-white fa-3x"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3 text-center">
+          <a href="privacypolicy.pdf">Privacy Policy</a>
+          <br>
+          <br>
+          <p>© Copyright 2018 DeKrommeBoom - All rights reserved.</p>
+          <p>Made by: Buyck Kenneth @ DeKrommeBoom</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

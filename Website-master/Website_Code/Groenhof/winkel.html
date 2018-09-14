@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <script src="js/navbarhide.js"></script>
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav id="navbar" class="navbar navbar-expand-md bg-light navbar-light fixed-top fill stroke">
+        <a href="../landingspagina.html" class="btn btn-sm fas fa-home fa-1x text-success" style="padding-left: -100%"> Home</a>
+    <div class="mx-auto d-md-flex d-block flex-md-nowrap">
+      <!-- Brand -->
+      <a class="navbar-brand text-success" href="index.html">
+        <img class="logo d-inline-block align-self-center" src="foto/cropped-logogroenhof.png" alt="Logo">Het Groenhof</a>
+      <!-- Navbar toggle -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarsExample11">
+        <!-- Nav bar Links -->
+        <ul class="navbar-nav">
+          <!-- Dropdown -->
+          <li class="nav-item">
+            <a class="nav-link text-success activemenu" href="winkel.html" id="navbardrop">Winkel</a>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link text-success" href="kunst.html">Kunst</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="cafetaria.html">Cafetaria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="verhuur.html">Verhuur</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-success" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- Tabs -->
+<section id="tabs">
+        <div class="container w-75">
+            <div class="row">
+                <div class="col-xs-12">
+                    <nav>
+                        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-Boeketten-tab" data-toggle="tab" href="#nav-Boeketten" role="tab" aria-controls="nav-Boeketten" aria-selected="true">Boeketten</a>
+                            <a class="nav-item nav-link" id="nav-Bloemstukken-tab" data-toggle="tab" href="#nav-Bloemstukken" role="tab" aria-controls="nav-Bloemstukken" aria-selected="false">Bloemstukken</a>
+                            <a class="nav-item nav-link" id="nav-Bruidswerk-tab" data-toggle="tab" href="#nav-Bruidswerk" role="tab" aria-controls="nav-Bruidswerk" aria-selected="false">Bruidswerk</a>
+                            <a class="nav-item nav-link" id="nav-Rouwwerk-tab" data-toggle="tab" href="#nav-Rouwwerk" role="tab" aria-controls="nav-Rouwwerk" aria-selected="false">Rouwwerk</a>
+                            <a class="nav-item nav-link" id="nav-Productenbox-tab" data-toggle="tab" href="#nav-Productenbox" role="tab" aria-controls="nav-Productenbox" aria-selected="false">Productenbox</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-Boeketten" role="tabpanel" aria-labelledby="nav-Boeketten-tab">
+                                <div class="album py-5">
+                                        <div class="container">
+                                          <div class="card-deck">
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="boeketten/img_1543.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                                  a little bit longer.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="boeketten/img_1545.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="boeketten/img_1547.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                                  longer content than the first to show that equal height action.</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card-deck padding-top">
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="boeketten/img_1825_resized.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                                  a little bit longer.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="boeketten/img_1827_resized.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card box-shadow zoom-in">
+                                              <img class="card-img-top" src="boeketten/img_1830_resized.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                                  longer content than the first to show that equal height action.</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card-deck padding-top">
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="boeketten/img_1831_resized.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                                  a little bit longer.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="boeketten/img_1833_resized.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card box-shadow">
+                                              <img class="card-img-top zoom-in" src="boeketten/img_1833_resized1.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                                  longer content than the first to show that equal height action.</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card-deck padding-top">
+                                                <div class="card">
+                                                  <img class="card-img-top zoom-in" src="boeketten/img_1835_resized.jpg" alt="Card image cap">
+                                                  <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                                      a little bit longer.</p>
+                                                  </div>
+                                                </div>
+                                                <div class="card">
+                                                  <img class="card-img-top zoom-in" src="boeketten/img_2060_resized.jpg" alt="Card image cap">
+                                                  <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                                  </div>
+                                                </div>
+                                                <div class="card box-shadow">
+                                                  <img class="card-img-top zoom-in" src="boeketten/img_2061_resized.jpg" alt="Card image cap">
+                                                  <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                                      longer content than the first to show that equal height action.</p>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="card-deck padding-top">
+                                                    <div class="card">
+                                                      <img class="card-img-top zoom-in" src="boeketten/img_2065_resized1.jpg" alt="Card image cap">
+                                                      <div class="card-body">
+                                                        <h4 class="card-title">Card title</h4>
+                                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                                          a little bit longer.</p>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card">
+                                                      <img class="card-img-top zoom-in" src="boeketten/img_2108_resized.jpg" alt="Card image cap">
+                                                      <div class="card-body">
+                                                        <h4 class="card-title">Card title</h4>
+                                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card box-shadow">
+                                                      <img class="card-img-top zoom-in" src="boeketten/img_2108_resized1.jpg" alt="Card image cap">
+                                                      <div class="card-body">
+                                                        <h4 class="card-title">Card title</h4>
+                                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                                          longer content than the first to show that equal height action.</p>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                        </div>
+                                      </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-Bloemstukken" role="tabpanel" aria-labelledby="nav-Bloemstukken-tab">
+                                <div class="album py-5">
+                                        <div class="container">
+                                          <div class="card-deck">
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="bloemstukken/img_1542.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                                  a little bit longer.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="bloemstukken/img_1551.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="bloemstukken/img_1555.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                                  longer content than the first to show that equal height action.</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card-deck padding-top">
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="bloemstukken/img_1817_resized.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                                  a little bit longer.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="bloemstukken/img_1821_resized.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card box-shadow zoom-in">
+                                              <img class="card-img-top" src="bloemstukken/img_1840_resized.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                                  longer content than the first to show that equal height action.</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card-deck padding-top">
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="bloemstukken/img_1843_resized.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                                  a little bit longer.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card">
+                                              <img class="card-img-top zoom-in" src="bloemstukken/img_1860_resized.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                              </div>
+                                            </div>
+                                            <div class="card box-shadow">
+                                              <img class="card-img-top zoom-in" src="bloemstukken/img_2076_resized.jpg" alt="Card image cap">
+                                              <div class="card-body">
+                                                <h4 class="card-title">Card title</h4>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                                  longer content than the first to show that equal height action.</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="card-deck padding-top">
+                                                <div class="card">
+                                                  <img class="card-img-top zoom-in" src="bloemstukken/img_2084_resized.jpg" alt="Card image cap">
+                                                  <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                                      a little bit longer.</p>
+                                                  </div>
+                                                </div>
+                                                <div class="card">
+                                                  <img class="card-img-top zoom-in" src="bloemstukken/img_2089_resized.jpg" alt="Card image cap">
+                                                  <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                                  </div>
+                                                </div>
+                                                <div class="card box-shadow">
+                                                  <img class="card-img-top zoom-in" src="bloemstukken/img_2092_resized.jpg" alt="Card image cap">
+                                                  <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                                      longer content than the first to show that equal height action.</p>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="card-deck padding-top">
+                                                    <div class="card">
+                                                      <img class="card-img-top zoom-in" src="bloemstukken/img_2094_resized.jpg" alt="Card image cap">
+                                                      <div class="card-body">
+                                                        <h4 class="card-title">Card title</h4>
+                                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                                          a little bit longer.</p>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card">
+                                                      <img class="card-img-top zoom-in" src="bloemstukken/img_2095_resized.jpg" alt="Card image cap">
+                                                      <div class="card-body">
+                                                        <h4 class="card-title">Card title</h4>
+                                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                                      </div>
+                                                    </div>
+                                                    <div class="card box-shadow">
+                                                      <img class="card-img-top zoom-in" src="bloemstukken/img_2100_resized.jpg" alt="Card image cap">
+                                                      <div class="card-body">
+                                                        <h4 class="card-title">Card title</h4>
+                                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                                          longer content than the first to show that equal height action.</p>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="card-deck padding-top">
+                                                        <div class="card">
+                                                          <img class="card-img-top zoom-in" src="bloemstukken/img_2100_resized.jpg" alt="Card image cap">
+                                                          <div class="card-body">
+                                                            <h4 class="card-title">Card title</h4>
+                                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                                              a little bit longer.</p>
+                                                          </div>
+                                                        </div>
+                                                        <div class="card">
+                                                          <img class="card-img-top zoom-in" src="bloemstukken/img_2104_resized.jpg" alt="Card image cap">
+                                                          <div class="card-body">
+                                                            <h4 class="card-title">Card title</h4>
+                                                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                                          </div>
+                                                        </div>
+                                                        <div class="card box-shadow">
+                                                          <img class="card-img-top zoom-in" src="bloemstukken/img_2110.jpg" alt="Card image cap">
+                                                          <div class="card-body">
+                                                            <h4 class="card-title">Card title</h4>
+                                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                                              longer content than the first to show that equal height action.</p>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                        </div>
+                                      </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-Bruidswerk" role="tabpanel" aria-labelledby="nav-Bruidswerk-tab">
+                            <div class="album py-5">
+                                <div class="container">
+                                  <div class="card-deck">
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="bruidswerk/13-x-20-001.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                          a little bit longer.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="bruidswerk/9-x-13-017.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="bruidswerk/dsc_0136.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                          longer content than the first to show that equal height action.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card-deck padding-top">
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="bruidswerk/dscn4484.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                          a little bit longer.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="bruidswerk/dscn4850.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="bruidswerk/img_0100.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                          longer content than the first to show that equal height action.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="tab-pane fade" id="nav-Rouwwerk" role="tabpanel" aria-labelledby="nav-Rouwwerk-tab">
+                            <div class="album py-5">
+                                <div class="container">
+                                  <div class="card-deck">
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/05-04-05-113.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                          a little bit longer.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/05.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/06.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                          longer content than the first to show that equal height action.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card-deck padding-top">
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/bewerkt.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                          a little bit longer.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/bloemen-039.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/bloemen-045.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                          longer content than the first to show that equal height action.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card-deck padding-top">
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/dsc_0009.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                          a little bit longer.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/dsc_0020.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/dsc_0031.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                          longer content than the first to show that equal height action.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card-deck padding-top">
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/dsc_0038b.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                          a little bit longer.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/dsc_0153.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/dscn3904.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                          longer content than the first to show that equal height action.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card-deck padding-top">
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/dscn4008.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                          a little bit longer.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/dscn4017.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/dscn4033.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                          longer content than the first to show that equal height action.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card-deck padding-top">
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/dscn4545.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                          a little bit longer.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/dscn5445.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/hart.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                          longer content than the first to show that equal height action.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="card-deck padding-top">
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/img_15721.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                          a little bit longer.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/img_2266.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="rouwwerk/05-04-05-113.jpg" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                          longer content than the first to show that equal height action.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane fade" id="nav-Productenbox" role="tabpanel" aria-labelledby="nav-Productenbox-tab">
+                            <div class="album py-5">
+                                <div class="container">
+                                  <div class="card-deck">
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="https://hetgroenhof.files.wordpress.com/2012/11/img_1792_resized.jpg?w=202&h=202&crop=1" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                                          a little bit longer.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="https://hetgroenhof.files.wordpress.com/2012/11/img_1796_resized.jpg?w=202&h=202&crop=1" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img class="card-img-top zoom-in" src="https://hetgroenhof.files.wordpress.com/2012/11/img_1794_resized.jpg?w=202&h=202&crop=1" alt="Card image cap">
+                                      <div class="card-body">
+                                        <h4 class="card-title">Card title</h4>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+                                          longer content than the first to show that equal height action.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ./Tabs -->
+
+
+    <div class="py-5 bg-success text-white">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-9">
+                  <p class="lead">Sign up to our newsletter for the latest news</p>
+                  <form class="form-inline">
+                    <div class="form-group">
+                      <input type="email" class="form-control" placeholder="Your e-mail here"> </div>
+                    <button type="submit" class="btn btn-secondary ml-3">Subscribe</button>
+                  </form>
+                </div>
+                <div class="col-4 col-md-1 align-self-center">
+                  <a href="https://www.facebook.com" target="_blank">
+                    <i class="fa fa-fw fa-facebook fa-3x text-white"></i>
+                  </a>
+                </div>
+                <div class="col-4 col-md-1 align-self-center">
+                  <a href="https://twitter.com" target="_blank">
+                    <i class="fa fa-fw fa-twitter fa-3x text-white"></i>
+                  </a>
+                </div>
+                <div class="col-4 col-md-1 align-self-center">
+                  <a href="https://www.instagram.com" target="_blank">
+                    <i class="fa fa-fw fa-youtube text-white fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 mt-3 text-center">
+                  <a class="text-dark" href="privacypolicy.pdf">Privacy Policy</a>
+                  <br>
+                  <br>
+                  <p>© Copyright 2018 DeKrommeBoom - All rights reserved.</p>
+                  <p>Made by: Buyck Kenneth @ DeKrommeBoom</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </body>
+        
+        </html>
